@@ -50,4 +50,10 @@ class EntrypointRenderer
     }
     return implode('', $linkTags);
   }
+
+    public function reset()
+    {
+        // resets the state of this service
+        $hasReturnedViteClient = false;
+    }
 }
